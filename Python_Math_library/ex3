@@ -1,0 +1,9 @@
+import math
+
+def regular_polygon_area(s, l):
+    return (s * l**2) / (4 * math.tan(math.pi / s))
+
+s = int(input("Қабырғалар саны: "))
+l = float(input("Қабырға ұзындығы: "))
+
+print(round(regular_polygon_area(s, l), 2))
