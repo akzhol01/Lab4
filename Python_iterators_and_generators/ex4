@@ -1,0 +1,7 @@
+def squares_range(a, b):
+    for x in range(a, b + 1):
+        yield x ** 2
+
+a = int(input("a енгіз: "))
+b = int(input("b енгіз: "))
+print(list(squares_range(a, b)))
