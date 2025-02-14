@@ -1,0 +1,7 @@
+def squares(n):
+    for x in range(n + 1):
+        yield x ** 2
+
+n = int(input("n енгіз: "))
+for num in squares(n):
+    print(num, end=" ")
