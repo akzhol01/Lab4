@@ -1,0 +1,7 @@
+def parallelogram_area(b, h):
+    return b * h
+
+b = float(input("Табан ұзындығы: "))
+h = float(input("Биіктігі: "))
+
+print(parallelogram_area(b, h))
