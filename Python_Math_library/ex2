@@ -1,0 +1,8 @@
+def trapezoid_area(h, b1, b2):
+    return 0.5 * (b1 + b2) * h
+
+h = float(input("Биіктік: "))
+b1 = float(input("Төменгі табан: "))
+b2 = float(input("Жоғарғы табан: "))
+
+print(trapezoid_area(h, b1, b2))
